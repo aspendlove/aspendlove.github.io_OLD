@@ -1,0 +1,227 @@
+h1 {
+  font-family: Inter, sans-serif;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: Nunito, sans-serif;
+}
+
+p {
+  font-family: Nunito, sans-serif;
+}
+
+a {
+  /* color: #C3C4C4; */
+  color: #f6f6f6;
+  text-decoration: none;
+  font-family: Nunito, sans-serif;
+}
+
+a:hover {
+  color: #EBEBEB;
+}
+
+body {
+  padding-top: 4em;
+  background-color: #121212;
+  /* color: #C3C4C4; */
+  color: #f6f6f6;
+  padding-bottom: 6em;
+  background-image:url(images/header.jpg);
+  background-repeat:no-repeat;
+  background: linear-gradient(149deg, #2d98b0, #8519a5);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 44s ease infinite;
+  -moz-animation: AnimationName 44s ease infinite;
+  animation: AnimationName 44s ease infinite;
+  /* font-family: Oxygen; */
+  /* background: rgb(58, 133, 174);
+  background: linear-gradient(160deg, rgba(58, 133, 174, 1) 23%, rgba(44, 170, 195, 1) 100%); */
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 25% 0%
+  }
+
+  50% {
+    background-position: 76% 100%
+  }
+
+  100% {
+    background-position: 25% 0%
+  }
+}
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 25% 0%
+  }
+
+  50% {
+    background-position: 76% 100%
+  }
+
+  100% {
+    background-position: 25% 0%
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 25% 0%
+  }
+
+  50% {
+    background-position: 76% 100%
+  }
+
+  100% {
+    background-position: 25% 0%
+  }
+}
+
+.opaque-glass {
+  background-color: rgb(0, 0, 0, 0.2);
+  /* filter: blur(0.8); */
+}
+
+.navbar {
+  /* background-color: rgb(0, 0, 0, 0.3); */
+  /* backdrop-filter: blur(1px); */
+  font-family: Nunito, sans-serif;
+}
+
+.heading {
+  /* height: 12em; */
+  width: 100%;
+  padding-top: 2em;
+  /* background: linear-gradient(270deg, #36bd9a, #9d42b7);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    -o-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite; */
+}
+
+.title {
+  /* height: 100%; */
+  text-align: center;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  color: #f6f6f6;
+  /* padding-bottom: 1em; */
+}
+
+.content {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#resume {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
+
+#resume article h1,
+#resume article h2,
+#resume article h3,
+#resume article h4 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.about {
+  padding-top: 2em;
+}
+
+.about-body {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  font-size: 1.1em;
+}
+
+#project_grid {
+  padding-bottom: 1em;
+}
+
+.card-img-top {
+  /* background-color: #1F1F1F; */
+  background-color: rgba(0, 0, 0, 0.1);
+  filter: brightness(90%);
+  object-fit: cover;
+}
+
+.card {
+  /* color: #C3C4C4; */
+  color: #f6f6f6;
+  /* background-color: #333333; */
+  background-color: rgba(0, 0, 0, 0.2);
+  /* Enlarge animation */
+}
+
+.link-card {
+  transition: 0.2s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.4s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
+}
+
+.link-card:hover {
+  /* filter: opacity(100%) blur(0px); */
+  transform: scale(1.02);
+}
+
+.btn {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.theme-image-container {
+  max-width: 50em;
+}
+
+.description {
+  margin-top: 1em;
+  /* margin-bottom: 1em; */
+}
+
+.contact-icon {
+  height: 60%
+  width: 60%
+}
+
+footer {
+  /* margin-top: 1em; */
+  position: absolute;
+  height: 6em;
+  width: 100%;
+  /* background-color: #212529; */
+  text-align: center;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+}
+
+#placeholder {
+  height: 20em;
+  width: 100%
+}
+
+.subheading {
+  /* background-color: #333333; */
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.undecorated {
+  background-color: inherit;
+  color: inherit;
+  text-decoration: inherit;
+}
